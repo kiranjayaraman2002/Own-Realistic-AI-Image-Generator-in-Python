@@ -60,12 +60,16 @@ Download → User can download the generated image.
 ## 📂 Project Structure
 
 AI-Image-Generator/
+
 │── app.py                # Main Streamlit application
+
 │── generated_images/     # Folder where generated images are saved
+
 │── requirements.txt      # Dependencies
+
 │── README.md             # Documentation
 
-🚀 How to Run
+## 🚀 How to Run
 
 Clone repo & install dependencies:
 
@@ -79,7 +83,7 @@ streamlit run app.py
 
 Open browser at http://localhost:8501/
 
-💡 Example Prompt
+## 💡 Example Prompt
 
 👉 “A futuristic city with flying cars at sunset”
 The app will generate an AI image matching the description.
@@ -95,6 +99,7 @@ Handles file management and image processing.
 Includes error handling + retry logic.
 
 Provides downloadable outputs for end users.
+
 
 
 
