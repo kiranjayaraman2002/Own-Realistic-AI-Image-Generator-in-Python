@@ -14,6 +14,20 @@ Frontend/UI: Streamlit (interactive Python web app framework)
 
 Backend: Python
 
+✅ User can enter any text prompt
+
+✅ Fetches image from Pollinations AI API
+
+✅ Ensures unique images using UUID-based prompt handling
+
+✅ Cleans images (removes watermark/artifacts using Pillow cropping)
+
+✅ Saves generated images locally (generated_images folder)
+
+✅ Preview inside Streamlit app
+
+✅ Download button for users to save the generated image
+
 ## Libraries Used:
 
 requests → API calls to Pollinations
@@ -28,19 +42,7 @@ time → retry logic for failed API requests
 
 ##⚙️ Features
 
-✅ User can enter any text prompt
 
-✅ Fetches image from Pollinations AI API
-
-✅ Ensures unique images using UUID-based prompt handling
-
-✅ Cleans images (removes watermark/artifacts using Pillow cropping)
-
-✅ Saves generated images locally (generated_images folder)
-
-✅ Preview inside Streamlit app
-
-✅ Download button for users to save the generated image
 
 ##🔑 Key Functionality (Flow)
 
@@ -96,4 +98,5 @@ Handles file management and image processing.
 Includes error handling + retry logic.
 
 Provides downloadable outputs for end users.
+
 
