@@ -1,4 +1,4 @@
-# Own Realistic AI Image Generator in Python (No API Keys Required)
+# AI Image Generator in Python (No API Keys Required)
 
 Generate high-quality, realistic AI images for free using Python — no paid APIs or subscriptions needed.
 
@@ -99,6 +99,7 @@ Handles file management and image processing.
 Includes error handling + retry logic.
 
 Provides downloadable outputs for end users.
+
 
 
 
