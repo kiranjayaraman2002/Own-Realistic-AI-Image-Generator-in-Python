@@ -40,11 +40,8 @@ PIL (Pillow) → cropping watermarks/artifacts from images
 
 time → retry logic for failed API requests
 
-##⚙️ Features
 
-
-
-##🔑 Key Functionality (Flow)
+## 🔑 Key Functionality (Flow)
 
 Input Prompt → User enters a description in the text box.
 
@@ -60,7 +57,7 @@ Display → The final image is shown on the page.
 
 Download → User can download the generated image.
 
-##📂 Project Structure
+## 📂 Project Structure
 
 AI-Image-Generator/
 │── app.py                # Main Streamlit application
@@ -98,5 +95,6 @@ Handles file management and image processing.
 Includes error handling + retry logic.
 
 Provides downloadable outputs for end users.
+
 
 
